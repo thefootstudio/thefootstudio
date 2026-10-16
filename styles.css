@@ -692,3 +692,5 @@ h2[id]{scroll-margin-top:110px}
 .article-title{font-size:clamp(2rem,4vw,3.2rem);line-height:1.1;margin:.3em 0 .6em}
 .event-photo{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;margin-bottom:18px}
 .li-colours.li-gecko{grid-template-columns:1fr 1fr;max-width:260px;gap:10px}.li-colours.li-gecko img{aspect-ratio:auto;height:70px;object-fit:contain;background:#fff;border-radius:0}
+.help-cols:has(#home-visits){grid-template-columns:1fr 1fr 1fr;gap:48px}
+@media(max-width:800px){.help-cols:has(#home-visits){grid-template-columns:1fr;gap:36px}}
