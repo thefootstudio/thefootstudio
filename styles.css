@@ -778,3 +778,4 @@ h2[id]{scroll-margin-top:110px}
 .vid-portrait figcaption{font-size:.8rem;color:var(--muted);margin-top:8px;text-align:center}
 .vid-center{max-width:300px;margin:32px auto 0}
 @media(max-width:800px){.media-pair{grid-template-columns:1fr}.vid-portrait video{max-height:560px}}
+@media (orientation:portrait){.hero.has-video{background-image:url('assets/hero-video-poster-portrait.jpg')!important}}
