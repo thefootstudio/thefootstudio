@@ -754,3 +754,15 @@ h2[id]{scroll-margin-top:110px}
 .md-p{font-family:var(--serif);font-size:1.1rem}
 .md p{margin:0 0 16px 18px;color:var(--muted);font-size:.9rem;line-height:1.6}
 @media(max-width:900px){.md-grid{grid-template-columns:1fr;gap:28px}}
+.special{margin:22px 0 26px;padding:20px 22px;border:1px solid #e6e1d9;background:#faf8f5}
+.special ul{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:0}
+.special li a{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid #e6e1d9;text-decoration:none}
+.special li:last-child a{border-bottom:0}
+.special li a span{color:var(--muted)}
+.sp-interest{margin-top:18px;font-size:.92rem;color:var(--muted)}
+.special-note{margin:10px 0 2px;font-size:.92rem;color:var(--muted)}
+.role .role-prof,.role .role-focus,.profile-role .role-prof,.profile-role .role-focus{display:block}
+.role .role-prof{font-weight:500;color:var(--ink,#111)}
+.role .role-focus{color:var(--muted);margin-top:2px}
+.profile-role{line-height:1.7}
+.profile-role .role-focus{color:var(--muted)}
