@@ -788,3 +788,8 @@ h2[id]{scroll-margin-top:110px}
 .hero.hero-contact .hero-inner{padding:150px 20px calc(96vw + 8px)}
 .hero.hero-contact::before{background:linear-gradient(180deg,rgba(10,10,8,.5) 0,rgba(10,10,8,.5) calc(100% - 100vw),rgba(10,10,8,0) calc(100% - 62vw))}
 }
+/* home visits hero on phones: text on top, orchid photo full width underneath */
+@media(max-width:800px){
+.lp-hero.lp-hero-hv{min-height:0;align-items:flex-start;padding-bottom:calc(86.5vw + 8px);background-color:#141214;background-image:url('/assets/orchid-closeup-mobile.jpg')!important;background-repeat:no-repeat;background-position:center bottom;background-size:100% auto}
+.lp-hero.lp-hero-hv::before{background:linear-gradient(180deg,rgba(10,10,8,.55) 0,rgba(10,10,8,.55) calc(100% - 90vw),rgba(10,10,8,0) calc(100% - 55vw))}
+}
