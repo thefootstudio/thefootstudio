@@ -795,3 +795,17 @@ h2[id]{scroll-margin-top:110px}
 }
 /* team bio pages on phones: show the left of the team photo */
 @media(max-width:800px){.hero.hero-team{background-position:36% center}}
+
+/* Header: logo on its own row, menu underneath (fits Footwear & Essentials) */
+@media (min-width:1081px){
+  .navrow{grid-template-columns:1fr 1fr;grid-template-areas:"brand brand" "left right";row-gap:10px;padding-top:0}
+  .navrow .brand{grid-area:brand;justify-self:center}
+  .navrow > ul:not(.right){grid-area:left}
+  .navrow > ul.right{grid-area:right}
+  .navrow .brand img{height:64px}
+}
+
+/* Home page: four pillar tiles */
+.pillars.pillars-4{grid-template-columns:repeat(4,1fr)}
+@media (max-width:900px){.pillars.pillars-4{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.pillars.pillars-4{grid-template-columns:1fr}}
