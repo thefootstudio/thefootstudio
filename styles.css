@@ -809,3 +809,14 @@ h2[id]{scroll-margin-top:110px}
 .pillars.pillars-4{grid-template-columns:repeat(4,1fr)}
 @media (max-width:900px){.pillars.pillars-4{grid-template-columns:1fr 1fr}}
 @media (max-width:560px){.pillars.pillars-4{grid-template-columns:1fr}}
+
+/* About: Team training tile */
+.team-tile{position:relative;display:block;min-height:260px;margin-top:64px;color:#fff;text-decoration:none;background:#222 center/cover no-repeat;overflow:hidden}
+.team-tile::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,10,8,.72) 0%,rgba(10,10,8,.35) 55%,rgba(10,10,8,.1) 100%);transition:background .3s}
+.team-tile:hover::after{background:linear-gradient(90deg,rgba(10,10,8,.82) 0%,rgba(10,10,8,.45) 55%,rgba(10,10,8,.2) 100%)}
+.team-tile .in{position:relative;z-index:1;padding:48px;max-width:620px}
+.team-tile .eyebrow{color:#fff;opacity:.85}
+.team-tile h3{color:#fff;font-size:clamp(2rem,4vw,3rem);margin:10px 0 10px}
+.team-tile p{color:#fff;margin:0 0 22px}
+.team-tile .go{display:inline-block;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;border-bottom:1px solid #fff;padding-bottom:6px}
+@media(max-width:820px){.team-tile .in{padding:32px 22px}}
