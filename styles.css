@@ -831,3 +831,46 @@ h2[id]{scroll-margin-top:110px}
 
 .home-strap{padding:44px 0 0;text-align:center}
 .home-strap p{margin:0;font-size:.82rem;letter-spacing:.18em;text-transform:uppercase;line-height:2;color:var(--muted)}
+
+/* Education menu: condition lists */
+.navrow .sub2.sub2-cols{width:min(760px,calc(100vw - 340px));column-count:3;column-gap:0;padding:8px 0;max-height:80vh;overflow-y:auto}
+.navrow .sub2.sub2-cols li{break-inside:avoid}
+.navrow .sub2.sub2-cols a{display:block;padding:7px 16px;font-size:13px;line-height:1.4;white-space:normal;text-transform:none;letter-spacing:.02em}
+.navrow .sub2.sub2-cols .sub2-all{column-span:all;border-bottom:1px solid rgba(255,255,255,.15);margin-bottom:4px}
+.navrow .sub2.sub2-cols .sub2-all a{font-size:12px;padding:10px 16px;text-transform:uppercase;letter-spacing:.12em}
+
+/* The Podiatry Movement band (homepage footer) */
+.pm-band{display:grid;grid-template-columns:200px 1fr;gap:32px;align-items:center;border-top:1px solid rgba(255,255,255,.15);padding:40px 0;margin-top:40px}
+.pm-band .pm-img img{width:200px;height:auto;display:block}
+.pm-band h2{margin:0 0 10px;color:#fff}
+.pm-band p{margin:0 0 18px;max-width:560px;opacity:.85}
+.pm-band .eyebrow{margin-bottom:10px;color:rgba(255,255,255,.7)}
+@media (max-width:640px){.pm-band{grid-template-columns:1fr;gap:20px}.pm-band .pm-img img{width:160px}}
+
+/* The Podiatry Movement page */
+.pm-page{display:grid;grid-template-columns:minmax(220px,380px) 1fr;gap:56px;align-items:start}
+.pm-page>img{width:100%;height:auto;display:block}
+.pm-page h1{margin:0 0 16px}
+.pm-options{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:32px}
+.pm-opt{border:1px solid #ddd;padding:24px}
+.pm-opt h2{font-size:1.4rem;margin:0 0 10px}
+.pm-opt p{margin:0 0 18px}
+@media (max-width:860px){.pm-page{grid-template-columns:1fr;gap:28px}.pm-page>img{max-width:320px}.pm-options{grid-template-columns:1fr}}
+
+/* Homepage strap: suburbs and booking buttons (ads brief, Nov 2026) */
+.home-strap .home-strap-suburbs{margin-top:10px;font-size:.78rem;letter-spacing:.08em;text-transform:none;line-height:1.7}
+.home-strap .home-strap-btns{justify-content:center;margin-top:22px;display:flex;flex-wrap:wrap;gap:12px}
+
+/* Ad landing heroes on phones: booking button and phone visible without scrolling (ads brief, Nov 2026) */
+@media (max-width:600px){
+.hero.hero-ad{min-height:0}
+.hero.hero-ad .hero-inner{padding:132px 16px 36px}
+.hero.hero-ad .eyebrow{display:none}
+.hero.hero-ad h1{font-size:2.3rem;line-height:1.1}
+.hero.hero-ad p{font-size:.95rem;line-height:1.55;margin-top:12px}
+.hero.hero-ad .hero-btns{margin-top:18px;gap:10px}
+.hero.hero-ad .hero-btns .btn{width:100%;text-align:center;justify-content:center;padding:13px 16px}
+.hero.hero-ad .lp-trust{margin-top:16px;font-size:.66rem;gap:6px 16px}
+}
+.home-hero-btns{display:none}
+@media (max-width:600px){.home-hero-btns{display:flex;justify-content:center;margin-top:28px}.home-hero-btns .btn{width:100%;text-align:center;justify-content:center}}
